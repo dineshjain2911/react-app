@@ -1,0 +1,372 @@
+:root{
+    --primary:#39A9DB;
+    --warning:#F9DC5C;
+    --danger:#E84855;
+    --sucess:#ABE188;
+    --white:#fdfdfd;
+    --dark:#181717;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.d-btn{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    border-radius:10px !important;
+    cursor:pointer;
+    transition:transform 0.3s ease;
+  
+
+}
+.d-btn:hover{
+    transform:translateY(-3px)
+}
+/* button colors and styles */
+.d-btn-primary{
+    background-color:var(--primary);
+    color:var(--white);
+    border: none;
+
+}
+.d-btn-warning{
+    background-color:var(--warning);
+    color:var(--dark);
+    border: none;
+}
+.d-btn-danger{
+    background-color:var(--danger);
+    color:var(--white);
+    border: none;
+}
+.d-btn-sucess{
+    background-color:var(--sucess);
+    color:var(--white);
+    border: none;
+}
+.d-btn-primary-outline{
+    background-color:transparent;
+    border:2px solid var(--primary);
+    color:var(--primary)
+
+}
+.d-btn-warning-outline{
+    background-color:transparent;
+    border:2px solid var(--warning);
+    color:var(--warning)
+}
+.d-btn-danger-outline{
+    background-color:transparent;
+    border:2px solid var(--danger);
+    color:var(--danger)
+}
+.d-btn-sucess-outline{
+    background-color:transparent;
+    border:2px solid var(--sucess);
+    color:var(--sucess)
+}
+
+/* buton size */
+/* .d-btn--small{
+    padding: 15px 30px;
+    font-size:20px;
+
+} */
+.d-btn-medium{
+    padding: 10px 20px;
+    font-size:18px;
+    
+}
+.d-btn-large{
+    padding: 15px 30px;
+    font-size:20px;
+    
+}
+.d-input-border-primary{
+    border: 2px solid var(--primary);
+}
+.d-input-border-warning{
+    border: 2px solid var(--warning);
+}
+.d-input-border-danger{
+    border: 2px solid var(--danger);
+}
+.d-input-border-dark{
+    border: 2px solid var(--dark);
+}
+.d-input-border-sucess{
+    border: 2px solid var(--sucess);
+}
+.d-input-border-white{
+    border: 2px solid var(--white);
+    
+}
+/* 12{
+    border:none ;
+    border-bottom: 2px solid var(--primary);
+} */
+.d-input-border-bottom-danger{
+    border:none ;
+    border-bottom: 2px solid var(--danger);
+}
+.d-input-border-bottom-dark{
+    border:none ;
+    border-bottom: 2px solid var(--dark);
+}
+.d-input-border-bottom-sucess{
+    border:none ;
+    border-bottom: 2px solid var(--sucess);
+}
+.d-input-border-bottom-white{
+    border:none ;
+    border-bottom: 2px solid var(--white);
+}
+.d-input-border-bottom-warning{
+    border:none ;
+    border-bottom: 2px solid var(--warning);
+}
+
+.d-input-capsule-primary{
+    border: 2px solid var(--primary);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.d-input-capsule-danger{
+    border: 2px solid var(--danger);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.d-input-capsule-dark{
+    border: 2px solid var(--dark);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.d-input-capsule-sucess{
+    border: 2px solid var(--sucess);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.d-input-shark-sucess{
+    border: 2px solid var(--sucess);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+}
+.d-input-capsule-warning{
+    border: 2px solid var(--warning);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.d-input-shark-primary{
+    border: 2px solid var(--primary);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    
+}
+.d-input-shark-danger{
+    border: 2px solid var(--danger);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.d-input-shark-dark{
+    border: 2px solid var(--dark);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.d-input-shark-sucess{
+    border: 2px solid var(--sucess);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.d-input-shark-warning{
+    border: 2px solid var(--warning);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.d-input{
+    width:100%;
+    height: 50px;
+}
+
+/* .d-input-capsule-primary{
+    border: 2px solid var(--primary);
+    border-radius:28%;
+} */
+.d-checkbox-primary{
+    width:50px;
+}
+
+/* checkbox starts here */
+/* container for checkbox */
+/* The container */
+.d-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+/* Hide the browser's default checkbox */
+.d-checkbox-container  input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    height: 22px;
+    width: 23px;
+    background-color: #eee;
+  }
+  /* On mouse-over, add a grey background color */
+.d-checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+/* When the checkbox is checked, add a blue background */
+.d-checkbox-container input:checked ~ .d-checkbox-primary {
+    background-color:var(--primary);
+  }
+  .d-checkbox-container input:checked ~ .d-checkbox-danger {
+    background-color:var(--danger);
+  }
+  .d-checkbox-container input:checked ~ .d-checkbox-warning {
+    background-color:var(--warning);
+  }
+  .d-checkbox-container input:checked ~ .d-checkbox-dark {
+    background-color:var(--dark);
+  }
+  .d-checkbox-container input:checked ~ .d-checkbox-sucess {
+    background-color:var(--sucess);
+  }
+  /* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+.d-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  /* Style the checkmark/indicator */
+.d-checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* .d-checkbox-danger {
+    background-color: var(--danger) ;
+  } */
+
+
+
+
+/* checkbox ends here */
+/* radio starts here */
+.d-radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .d-radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .d-radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .d-radio-container:hover input ~ .d-radio-checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .d-radio-container input:checked ~ .d-radio-primary{
+    background-color: var(--primary);
+  }
+  .d-radio-container input:checked ~ .d-radio-danger{
+    background-color:var(--danger);
+  }
+  .d-radio-container input:checked ~ .d-radio-warning{
+    background-color:var(--warning);
+  }
+  .d-radio-container input:checked ~ .d-radio-sucess{
+    background-color:var(--sucess);
+  }
+  .d-radio-container input:checked ~ .d-radio-dark{
+    background-color:var(--dark);
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .d-radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .d-radio-container input:checked ~ .d-radio-checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .d-radio-container .d-radio-checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+/* radio ends here */
